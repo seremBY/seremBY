@@ -69,4 +69,17 @@
   const btnComprar = document.getElementById("btn-comprar");
   const textoWhatsApp = "Hola, me interesa el " + encodeURIComponent(producto.nombre);
   btnComprar.href = "https://wa.me/50684132300?text=" + encodeURIComponent(textoWhatsApp);
+
+  // Botón volver: regresar a donde estaba el usuario
+  const backLink = document.getElementById("detalle-back");
+  if (backLink) {
+    backLink.addEventListener("click", function (e) {
+      e.preventDefault();
+      if (window.history.length > 1) {
+        window.history.back();
+      } else {
+        window.location.href = "catalogo.html";
+      }
+    });
+  }
 })();
