@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Catálogo</title>
+  <link rel="stylesheet" href="../css/catalogo.css">
+</head>
+<body>
+
+<header class="catalogo-header">
+  <h1>Catálogo</h1>
+  <a href="../index.html" class="btn-inicio">Inicio</a>
+</header>
+
+<nav class="catalogo-categorias" aria-label="Filtrar por categoría">
+  <button type="button" class="btn-categoria active" data-categoria="conjuntos">Conjuntos</button>
+  <button type="button" class="btn-categoria" data-categoria="bralette">Bralette</button>
+  <button type="button" class="btn-categoria" data-categoria="tangas">Tangas</button>
+</nav>
+
+<main class="catalogo-grid" id="catalogo-grid">
+  <!-- Las cards se generan dinámicamente con JavaScript -->
+</main>
+
+<script src="../js/productos-data.js"></script>
+<script src="../js/catalogo.js"></script>
+</body>
+</html>

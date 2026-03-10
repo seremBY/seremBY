@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Detalle del producto</title>
+  <link rel="stylesheet" href="../css/detalle.css">
+</head>
+<body>
+
+<header class="detalle-header">
+  <a href="catalogo.html" class="back">← Volver</a>
+</header>
+
+<main class="detalle-container">
+
+  <div class="detalle-img">
+    <!-- Galería (se llena con JS) -->
+    <div class="gallery" id="gallery"></div>
+    <!-- Imagen principal -->
+    <div class="main-image">
+      <img src="" id="imagen-principal" alt="">
+    </div>
+  </div>
+
+  <!-- Información (se llena con JS) -->
+  <div class="detalle-info">
+    <h1 id="detalle-nombre"></h1>
+    <p class="precio" id="detalle-precio"></p>
+    <p class="descripcion" id="detalle-descripcion"></p>
+    <ul class="info-list">
+      <li><strong>Tipo de tela:</strong> <span id="detalle-tela"></span></li>
+      <li><strong>Tallas disponibles:</strong> <span id="detalle-tallas"></span></li>
+      <li><strong>Colores:</strong> <span id="detalle-colores"></span></li>
+    </ul>
+    <a href="#" target="_blank" class="btn-comprar" id="btn-comprar">Adquirir</a>
+  </div>
+
+</main>
+
+<script src="../js/productos-data.js"></script>
+<script src="../js/detalle.js"></script>
+</body>
+</html>

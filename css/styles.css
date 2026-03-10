@@ -1,0 +1,195 @@
+/* ================= RESET ================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #f8f6f4;
+  color: #333;
+}
+
+/* ================= HERO ================= */
+
+.hero {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* VIDEO */
+.hero-video-container {
+  width: 50%;
+  overflow: hidden;
+}
+
+.hero-video-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero-video-container {
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-video-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 120px;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(248,246,244,0),
+    rgba(248,246,244,1)
+  );
+}
+
+/* INFO */
+.hero-info {
+  width: 50%;
+  padding: 80px 100px 80px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: right;
+  gap: 35px;
+}
+.hero-info > * {
+  max-width: 460px;
+}
+
+
+/* ================= LOGO ================= */
+
+.logo h1 {
+  font-size: 92px;
+  line-height: 1;
+}
+
+.logo span {
+  display: block;
+  margin-top: 8px;
+  font-size: 14px;
+  letter-spacing: 3px;
+  opacity: 0.7;
+}
+
+.logo::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 1px;
+  background: #000;
+  margin: 25px 0 35px auto;
+}
+
+
+/* ================= TEXTO ================= */
+
+.hero-info p {
+  max-width: 420px;
+  font-size: 15px;
+  line-height: 1.9;
+  margin: 40px 0;
+  color: #555;
+}
+
+/* ================= MENÚ ================= */
+
+.menu {
+  margin-bottom: 40px;
+}
+
+.menu a {
+  margin-left: 28px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 400;
+  position: relative;
+}
+
+.menu a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  background: #000;
+  left: 0;
+  bottom: -6px;
+  transition: 0.3s;
+}
+
+.menu a:hover::after {
+  width: 100%;
+}
+
+/* ================= BOTONES ================= */
+
+.buttons {
+  display: flex;
+  gap: 22px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 15px 44px;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+/* BOTÓN PRINCIPAL */
+.btn.primary {
+  background: #000;
+  color: #fff;
+}
+
+.btn.primary:hover {
+  background: transparent;
+  color: #000;
+  border: 1px solid #000;
+}
+
+/* BOTÓN SECUNDARIO */
+.btn.secondary {
+  border: 1px solid #000;
+  color: #000;
+}
+
+.btn.secondary:hover {
+  background: #000;
+  color: #fff;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .hero-video-container,
+  .hero-info {
+    width: 100%;
+  }
+
+  .hero-info {
+    align-items: center;
+    text-align: center;
+    padding: 60px 30px;
+  }
+
+  .menu a {
+    margin: 0 15px;
+  }
+}
