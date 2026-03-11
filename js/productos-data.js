@@ -10,7 +10,7 @@ const PRODUCTOS_DATA = {
     nombre: "Conjunto Ivory",
     descripcion: "Conjunto  que combina soporte y delicados detalles para un look femenino y cómodo. Brasier con varilla y copa media, con cargaderas graduables y removibles y broche ajustable que permite adaptarse perfectamente al contorno. Panty en polilicra con refuerzo interno en algodón en la zona íntima y laterales en encaje que aportan un toque delicado y elegante",
     tela: "Polilicra",
-    tallas: "S · M · L",
+    tallas: "S · M · L · XL ",
     precio: "₡ 10.500",
     colores: [
       { id: "beige", nombre: "Beige" },
