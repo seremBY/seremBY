@@ -30,10 +30,10 @@ const PRODUCTOS_DATA = {
     nombre: "Conjunto Bruma",
     descripcion: "Conjunto  que combina soporte y delicados detalles para un look femenino y cómodo. Brasier con varilla y copa media, con cargaderas graduables y removibles y broche ajustable que permite adaptarse perfectamente al contorno. Panty en polilicra con refuerzo interno en algodón en la zona íntima y laterales en encaje que aportan un toque delicado y elegante",
     tela: "Polilicra",
-    tallas: "S · M · L · XL",
+    tallas: "S · M · L · XL ",
     precio: "₡ 10.500",
     colores: [
-      { id: "celeste", nombre: "Celeste" },
+      { id: "celeste flores", nombre: "Celeste" },
       { id: "rosa", nombre: "Rosa" }
     ],
     imagenes: {
@@ -48,7 +48,7 @@ const PRODUCTOS_DATA = {
     nombre: "Conjunto Delia",
     descripcion: "Conjunto que combina la delicadeza del encaje con la ligereza del mallatex para un diseño femenino y cómodo. Top en encaje y mallatex con cargaderas ajustables que brindan un ajuste práctico y confortable. Panty en polilicra con refuerzo interno en algodón en la zona íntima y laterales en encaje que aportan un toque delicado y elegante.",
     tela: "Encaje y Mallatexcon",
-    tallas: "S · M · L · XL",
+    tallas: "S · M · L · XL ",
     precio: "₡ 10.500",
     colores: [{ id: "blanco", nombre: "Blanco" }],
     imagenes: {
@@ -62,7 +62,7 @@ const PRODUCTOS_DATA = {
     nombre: "Conjunto Eclipse",
     descripcion: "Conjunto diseñado para brindar soporte, comodidad y un ajuste favorecedor. Brasier con varilla y copa media, forrado en la misma tela, con cargaderas graduables y removibles y broche ajustable que permite adaptarse perfectamente al contorno. Panty en polilicra con refuerzo interno en algodón, costura en zigzag y delicado acabado en sesgo en mora que aporta suavidad y comodidad.",
     tela: "Polilicra",
-    tallas: "S · M · L · XL",
+    tallas: "S · M · L · XL ",
     precio: "₡ 10.500",
     colores: [
       { id: "azul", nombre: "Azul" },
@@ -82,7 +82,7 @@ const PRODUCTOS_DATA = {
     nombre: "Conjunto Esencial",
     descripcion: "Conjunto ideal para quienes buscan comodidad sin perder estilo.Top con cargaderas y elástico en contorno para un ajuste cómodo y seguro. Panty con refuerzo interno en algodón y delicado acabado en sesgo que brinda mayor suavidad y confor",
     tela: "Algodón Licrado",
-    tallas: "S · M · L · XL",
+    tallas: "S · M · L · XL ",
     precio: "₡ 7.500",
     colores: [
       { id: "blanco", nombre: "Blanco" },
@@ -102,7 +102,7 @@ const PRODUCTOS_DATA = {
     nombre: "Conjunto Nuit",
     descripcion: "Conjunto que combina ligereza y suavidad para un look cómodo y delicado. Brasier con tela doble para mayor cobertura, cargaderas graduables y broche ajustable que permite adaptarse perfectamente al contorno. Panty en mallatex con refuerzo interno en algodón en la zona íntima, costura en zigzag y delicado acabado en sesgo en mora que aporta suavidad y confort.",
     tela: "Mallatex",
-    tallas: "S · M · L · XL",
+    tallas: "S · M · L · XL ",
     precio: "₡ 10.500",
     colores: [
       { id: "cafe", nombre: "Café" },
@@ -124,7 +124,7 @@ const PRODUCTOS_DATA = {
     nombre: "Conjunto Rosé",
     descripcion: "Conjunto  que combina suavidad y soporte para un ajuste cómodo y seguro. Brasier con varilla, cargaderas graduables y removibles, y broche ajustable que permite adaptarse perfectamente al contorno. Panty en algodón con refuerzo interno en la zona íntima, costura en zigzag y delicado acabado en sesgo en mora que aporta mayor comodidad.",
     tela: "Algodón",
-    tallas: "S · M · L · XL",
+    tallas: "S · M · L · XL ",
     precio: "₡ 10.500",
     colores: [
       { id: "celeste", nombre: "Celeste (Flores)" },
@@ -144,7 +144,7 @@ const PRODUCTOS_DATA = {
     nombre: "Conjunto Desire",
     descripcion: "Conjuntocon delicados detalles que aportan un estilo femenino y moderno. Top en polilicra con encaje en la parte frontal y broche delantero que permite un ajuste práctico y cómodo. Panty en polilicra con refuerzo interno en algodón en la zona íntima, costura en zigzag y delicado acabado en sesgo en mora que brinda mayor suavidad y confort.",
     tela: "Polilicra",
-    tallas: "S · M · L · XL",
+    tallas: "S · M · L · XL ",
     precio: "₡ 8.500",
     colores: [{ id: "blanco", nombre: "Blanco" }],
     imagenes: {
@@ -158,7 +158,7 @@ const PRODUCTOS_DATA = {
     nombre: "Conjunto Aura",
     descripcion: "Pieza esencial con diseño minimalista. Perfecta para combinar con todo.",
     tela: "Mallatex",
-    tallas: "ÚNICO S",
+    tallas: " ÚNICO S ",
     precio: "₡ 8.500",
     colores: [{ id: "negro", nombre: "Negro" }],
     imagenes: {
@@ -172,7 +172,7 @@ const PRODUCTOS_DATA = {
     nombre: "Conjunto Sereniti",
     descripcion: "Conjunto diseñado para brindar soporte, comodidad y un ajuste favorecedor. Brasier con varilla y copa media, forrado en la misma tela, con cargaderas graduables y removibles y broche ajustable que permite adaptarse perfectamente al contorno. Panty en polilicra con refuerzo interno en algodón, costura en zigzag y delicado acabado en sesgo en mora que aporta suavidad y comodidad.",
     tela: "Polilicra",
-    tallas: "S · M · L · XL",
+    tallas: "S · M · L · XL ",
     precio: "₡ 10.500",
     colores: [
       { id: "azul", nombre: "Azul" },
@@ -192,7 +192,7 @@ const PRODUCTOS_DATA = {
     nombre: "Conjuto Daisy",
     descripcion: "Conjunto con delicados detalles en encaje que aportan un diseño moderno y versátil. Top en polilicra con cargaderas graduables y encaje en la parte delantera que añade un toque sutil y elegante. Panty en polilicra con refuerzo interno en algodón en la zona íntima, costura en zigzag y acabado en sesgo en mora que ofrece un ajuste suave y confortable.",
     tela: "Polilicra",
-    tallas: "S · M · L",
+    tallas: "S · M · L ",
     precio: "₡ 8.500",
     colores: [{ id: "blanco", nombre: "Blanco" }],
     imagenes: {
@@ -206,7 +206,7 @@ const PRODUCTOS_DATA = {
     nombre: "Conjuto Luna",
     descripcion: "Conjunto de ropa interior en delicada malla tipo encaje con diseño geométrico. El top cuenta con copas suaves y cargaderas ajustables que brindan comodidad y un ajuste perfecto. Panty a juego en tela semitransparente con acabado delicado que aporta un toque moderno y femenino. Ideal para quienes buscan un estilo sofisticado y cómodo al mismo tiempo.",
     tela: "Encaje Mallatex",
-    tallas: "ÚNICO S",
+    tallas: " ÚNICO S ",
     precio: "₡ 8.500",
     colores: [{ id: "negro", nombre: "Negro" }],
     imagenes: {
@@ -234,7 +234,7 @@ const PRODUCTOS_DATA = {
     nombre: "Tangas",
     descripcion: "Tangas cómodas y con estilo. Diseño que combina funcionalidad y estética.",
     tela: "Invisible",
-    tallas: "Única · S · M · L · XL",
+    tallas: "Única · S · M · L · XL ",
     precio: "₡ 2.000",
     colores: [{ id: "default", nombre: "Principal" }],
     imagenes: {
