@@ -230,7 +230,8 @@ body {
   }
 
   .catalogo-grid {
-    padding: 24px;
+    padding: 24px 16px 32px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
 }
 
@@ -246,6 +247,11 @@ body {
 
   .catalogo-header h1 {
     font-size: 40px;
+  }
+
+  .catalogo-grid {
+    padding: 16px 12px 32px;
+    grid-template-columns: 1fr;
   }
 
   .product-card {

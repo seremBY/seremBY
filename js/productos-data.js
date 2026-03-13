@@ -33,7 +33,7 @@ const PRODUCTOS_DATA = {
     tallas: "S · M · L · XL ",
     precio: "₡ 10.500",
     colores: [
-      { id: "celeste flores", nombre: "Celeste" },
+      { id: "celeste", nombre: "Celeste" },
       { id: "rosa", nombre: "Rosa" }
     ],
     imagenes: {
