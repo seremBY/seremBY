@@ -67,7 +67,7 @@
 
   // WhatsApp
   const btnComprar = document.getElementById("btn-comprar");
-  const textoWhatsApp = "Hola, me interesa el " + encodeURIComponent(producto.nombre);
+  const textoWhatsApp = "Hola, me interesa el " + (producto.nombre);
   btnComprar.href = "https://wa.me/50660721693?text=" + encodeURIComponent(textoWhatsApp);
 
   // Botón volver: regresar a donde estaba el usuario
