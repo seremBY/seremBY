@@ -220,7 +220,7 @@ const PRODUCTOS_DATA = {
     nombre: "Bralette",
     descripcion: "Bralette cómodo y delicado, ideal para combinar o usar como pieza destacada. Diseño minimalista.",
     tela: "Encaje",
-    tallas: "Única · S · M",
+    tallas: "Unitalla",
     precio: "₡ 3.000",
     colores: [{ id: "default", nombre: "Principal" }],
     imagenes: {
